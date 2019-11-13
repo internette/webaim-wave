@@ -1,0 +1,33 @@
+{
+  "name": "webaim-wave",
+  "version": "1.0.1",
+  "description": "CLI for WebAIM Wave accessibility tool",
+  "main": "src/webaim-wave.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "webaim-wave": "src/webaim-wave.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/internette/npm-webaim-wave.git"
+  },
+  "keywords": [
+    "accessibility",
+    "webaim",
+    "wave",
+    "cli"
+  ],
+  "author": "Antoinette Janus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/internette/npm-webaim-wave/issues"
+  },
+  "homepage": "https://github.com/internette/npm-webaim-wave#readme"
+}
